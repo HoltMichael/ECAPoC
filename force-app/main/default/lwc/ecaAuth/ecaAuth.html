@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Aquiva ECA Demo" icon-name="utility:integration">
+        <div class="slds-p-around_small">
+            <lightning-button label="Connect to ECA Org" onclick={handleConnect}></lightning-button>
+            <lightning-button label="Refresh Token" onclick={handleRefresh}></lightning-button>
+            <template lwc:if={isAuthenticated}>
+                <lightning-input-rich-text class="slds-p-top_small slds-p-bottom_small" default="Enter Message" onchange={handleChange}>Enter Message</lightning-input-rich-text>
+                <lightning-button label="Send Message" onclick={handleSendMessage}></lightning-button>
+            </template>
+        </div>
+    </lightning-card>
+</template>

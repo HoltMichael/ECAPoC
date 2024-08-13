@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Messages">
+        <template if:true={messages.data}>
+            <template for:each={messages.data} for:item="message">
+                <div key={message.Id} class="message">
+                    <lightning-formatted-rich-text class="row" value={message.mholt__Message__c}></lightning-formatted-rich-text>
+                    <lightning-formatted-date-time value={message.CreatedDate}></lightning-formatted-date-time>
+                </div>
+            </template>
+        </template>
+        <template if:true={messages.error}>
+            <p>{messages.error}</p>
+        </template>
+    </lightning-card>
+</template>

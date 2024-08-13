@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Full, RefreshToken</commaSeparatedOauthScopes>
+    <externalClientApplication>Aquiva_Labs_Demo</externalClientApplication>
+    <label>Aquiva_Labs_Demo_oauth</label>
+    <oauthLink>00D0Y000000sdNA:888J700000000M7</oauthLink>
+</ExtlClntAppOauthSettings>

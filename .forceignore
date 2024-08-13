@@ -1,0 +1,22 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+force-app/main/default/externalClientApps/Aquiva_Labs_Demo_Local.eca-meta.xml
+force-app/main/default/extlClntAppOauthSettings/Aquiva_Labs_Demo_Local_oauth.ecaOauth-meta.xml
+force-app/main/default/flexipages
+force-app/main/default/layouts
+force-app/main/default/profiles
+force-app/main/default/tabs
+force-app/main/default/customMetadata/ECA_Auth.Aquiva_Labs_Demo.md-meta.xml
+**/tsconfig.json
+
+**/*.ts

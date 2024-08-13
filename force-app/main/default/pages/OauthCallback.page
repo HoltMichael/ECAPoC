@@ -1,0 +1,34 @@
+<apex:page controller="Mholt.OauthController">
+    
+    <div id="connectionMessage"></div>
+    
+    <script>
+        console.log('JS Starting');
+        var urlParams = new URLSearchParams(window.location.search);
+
+        var code = urlParams.get('code');
+        var error = urlParams.get('error');
+
+        var messageElement = document.getElementById('connectionMessage');
+        if (code) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.OauthController.handleCallback}', 
+                code, 
+                function(result, event) {
+                    console.log(JSON.stringify(event));
+                    if (event.status) {
+                        messageElement.innerText = 'Connection Successful';
+                        setTimeout(function() {
+                            window.location.href = '/home/home.jsp';
+                        }, 2000); // Hang on this page for 2 seconds to see the success message, then redirect to the home page
+                    } else {
+                        messageElement.innerText = 'Connection unsuccessful: ' + event.message;
+                    }
+                }
+            );
+        }else if(error){
+            var errorDescription = urlParams.get('error_description');
+            messageElement.innerText = 'Connection unsuccessful: ' + error + ' Description: ' + errorDescription;
+        }
+    </script>
+</apex:page>

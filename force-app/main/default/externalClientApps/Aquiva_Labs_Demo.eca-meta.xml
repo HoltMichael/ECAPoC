@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mholt@aquivalabs.com</contactEmail>
+    <distributionState>Packaged</distributionState>
+    <iconUrl>https://avatars.githubusercontent.com/u/44431741?s=200&amp;v=4</iconUrl>
+    <isProtected>false</isProtected>
+    <label>Aquiva Labs Demo</label>
+    <orgScopedExternalApp>00D0Y000000sdNA:Aquiva_Labs_Demo</orgScopedExternalApp>
+</ExternalClientApplication>

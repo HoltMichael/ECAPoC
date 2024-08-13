@@ -1,0 +1,10 @@
+.message {
+    border-radius: 3px;
+    margin: 5px;
+    padding: 2px 5px;
+    background-color: #C1E8FF;
+}
+
+.row{
+    display: block;
+}

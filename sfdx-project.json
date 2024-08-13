@@ -1,0 +1,35 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Holt ECA",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "name": "ECA",
+  "namespace": "mholt",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "Holt ECA": "0HoJ7000000TN1KKAW",
+    "Holt ECA@0.1.0-1": "04tJ70000004eBzIAI",
+    "Holt ECA@0.1.0-2": "04tJ70000004eCJIAY",
+    "Holt ECA@0.1.0-3": "04tJ70000004eCFIAY",
+    "Holt ECA@0.1.0-4": "04tJ70000004eCOIAY",
+    "Holt ECA@0.1.0-5": "04tJ70000004eCiIAI",
+    "Holt ECA@0.1.0-6": "04tJ70000004eCnIAI",
+    "Holt ECA@0.1.0-7": "04tJ70000004eCsIAI",
+    "Holt ECA@0.1.0-8": "04tJ70000004eCxIAI",
+    "Holt ECA@0.1.0-9": "04tJ70000004eD2IAI",
+    "Holt ECA@0.1.0-10": "04tJ70000004eDCIAY",
+    "Holt ECA@0.1.0-11": "04tJ70000004eDHIAY",
+    "Holt ECA@0.1.0-12": "04tJ70000004eDMIAY",
+    "Holt ECA@0.1.0-13": "04tJ70000004eDRIAY",
+    "Holt ECA@0.1.0-14": "04tJ70000004eDgIAI",
+    "Holt ECA@0.1.0-15": "04tJ70000004eDlIAI",
+    "Holt ECA@0.1.0-16": "04tJ70000004eDqIAI"
+  }
+}
